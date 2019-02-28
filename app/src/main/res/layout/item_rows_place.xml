@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/rlItemPlace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="@dimen/margin_default">
+            <ImageView
+                    android:id="@+id/imgItemPlace"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ic_launcher_round"
+                    android:layout_marginRight="@dimen/margin_default"/>
+            <TextView
+                    android:id="@+id/tvNameItemPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:text="Ini Nama Tempat"
+                    android:textColor="@android:color/black"/>
+            <TextView
+                    android:id="@+id/tvDistanceItemPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvNameItemPlace"
+                    android:text="Jarak: 50km"
+                    android:textSize="13dp"/>
+            <TextView
+                    android:id="@+id/tvPriceItemPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvDistanceItemPlace"
+                    android:text="Rp. 200.000"
+                    android:textSize="13dp"/>
+            <TextView
+                    android:id="@+id/tvDistrictItemPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgItemPlace"
+                    android:layout_below="@id/tvPriceItemPlace"
+                    android:text="District Washington DC United States"
+                    android:textSize="13dp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

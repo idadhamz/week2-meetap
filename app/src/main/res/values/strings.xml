@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">week2</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+    <string name="title_map">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coba_lagi">Coba Lagi !</string>
+    <string name="masukan_nama_tempat">Masukan Nama Tempat</string>
+    <string name="place_list_cari">Cari</string>
+    <string name="tidak_ada_data">Tidak Ada Data</string>'
+    <string name="change_language">Change Language</string>
+    <string name="error">Error</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="error_msg_no_internet">Internet not found</string>
+    <string name="error_msg_timeout">The server takes too long to respond</string>
+
+    <!--dipake di detail activity-->
+    <string name="harga">Harga:</string>
+    <string name="kecamatan">Kecamatan:</string>
+    <string name="alamat">Alamat:</string>
+    <string name="jam_operasional">Jam Operasional:</string>
+    <string name="deskripsi">Deskripsi:</string>
+    <string name="lihat_map">Lihat Map</string>
+    <string name="pesan_tiket">Pesan Tiket</string>
+    <string name="masukkan_jumlah_tiket">Masukkan Jumlah Tiket</string>
+    <string name="beli_tiket">Beli Tiket</string>
+    <string name="nomor_telepon">Nomor Telepon:</string>
+    <string name="edtil_lokasi">Edit Lokasi</string>
+    <string name="delete_lokasi">Hapus Lokasi</string>
+
+
+</resources>
